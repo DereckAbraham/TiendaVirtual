@@ -1,0 +1,39 @@
+.body {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    grid-gap: 10px; 
+}
+
+#div_producto_list{
+    display: grid;
+    grid-template-columns: repeat(5, 15rem); 
+    grid-template-rows: repeat(5, 1fr); 
+    grid-gap: 10px; 
+}
+
+#div_producto_list div{
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+button{
+    border: none;
+    background-color: #c6c6c6; 
+    color: black; 
+    cursor: pointer; 
+    font-family: Arial, sans-serif;
+}
+
+.box_img {
+    margin: auto;
+}
+
+.box_img img {
+    width: 9rem;
+    height: 9rem;
+}
+
+.name {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
